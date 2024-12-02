@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bg {
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color for the header */
+}
+
+.common.header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.mynavbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.mynavbar a:hover {
+    text-decoration: underline;
+}
+
+.linkname a {
+    text-decoration: none;
+    color: #333;
+}
+
+.linkname a:hover {
+    text-decoration: underline;
+}
+
+.common.mainbody {
+    padding: 20px;
+}
+
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: 1px solid #555555;
+    padding-left: 5px;
+}
+
+img {
+    display: inline-block;
+    margin: 20px 10px;
+    vertical-align: top;
+}
+
+.common.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
